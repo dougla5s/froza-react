@@ -1,0 +1,100 @@
+#main {
+    height: 100vh;
+}
+.main-wrapper {
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#aside {
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    height: 100%;
+    left: 0;
+    width: 250px;
+    top: 64px;
+    padding: 2rem;
+}
+.aside-products {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.product:first-child {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.aside-about {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.description:first-child {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.contacts-number {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contacts {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    width: 24px;
+    cursor: pointer;
+}
+
+#content {
+    margin-left: 250px;
+    height: 200vh;
+    width: 100%;
+}
+.content-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+.content-ad {
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+}
+
+.cases {
+    display: grid;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.case-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.case {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin:2rem;
+}

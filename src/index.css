@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.25rem;
+  background: url('/public/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}
